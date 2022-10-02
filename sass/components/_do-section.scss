@@ -1,0 +1,40 @@
+.do-section {
+    padding-bottom: 94px;
+    text-align: center;
+}
+
+.do-section__box{
+    @extend %container;
+}
+
+.do-section__title{
+    @extend %title;
+    margin-bottom: 50px;
+}
+
+.do-section__list{
+    @extend %list;
+    display: flex;
+    gap: 30px;
+}
+
+.do-card{
+    position: relative;
+}
+
+.do-card__title {
+    position: absolute;
+    bottom: 0;
+    height: 70px;
+    width: 100%;
+    padding-top: 27px;
+    padding-bottom: 27px;
+
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.17;
+    color: var(--alternative-accent-color);
+    background-color: rgba(47, 48, 58, 0.8);
+}

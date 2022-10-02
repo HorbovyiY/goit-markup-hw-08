@@ -1,0 +1,23 @@
+.advantage-item{
+    width: calc((1170 - 3*30)/4);
+
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
+}
+
+.advantage-item__title {
+    @extend %title;
+    margin-bottom: 10px;
+
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.advantage-item__desc {
+    font-size: 14px;
+    line-height: 1.71;
+    font-style: normal;
+}
+

@@ -1,0 +1,20 @@
+.team-section{
+    @extend %section;
+    background-color: var(--secondary-background-color);
+    text-align: center;
+}
+
+.team-section__box{
+    @extend %container;
+}
+
+.team-section__title{
+    @extend %title;
+    margin-bottom: 50px;
+}
+
+.team-section__set{
+    @extend %list;
+    display: flex;
+    gap: 30px;
+}

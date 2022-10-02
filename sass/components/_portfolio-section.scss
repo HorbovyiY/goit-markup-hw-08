@@ -1,0 +1,20 @@
+.portfolio-section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.portfolio-section__box{
+    @extend %container;
+}
+
+.portfolio-section__title{
+    @extend %visually-hidden;
+}
+
+.portfolio-section__list-btn {
+    @extend %list;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 34px;
+}

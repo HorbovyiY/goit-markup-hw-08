@@ -1,0 +1,17 @@
+.advantage{
+    @extend %section;
+}
+
+.advantage__box{
+    @extend %container;
+}
+
+.advantage__title{
+    @extend %title;
+    @extend %visually-hidden;
+}
+
+.advantage__list{
+    @extend %list;
+    display: flex;
+}

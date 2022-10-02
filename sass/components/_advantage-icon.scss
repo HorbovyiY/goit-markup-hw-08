@@ -1,0 +1,19 @@
+.advantage-icon {
+    width: 70px;
+    height: 70px;
+    fill: currentColor;
+}
+
+.advantage-icon__bg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 120px;
+
+    background-color: var(--secondary-background-color);
+    color: var(--secondary-font-color);
+    margin-bottom: 30px;
+    border-radius: 4px;
+}
+

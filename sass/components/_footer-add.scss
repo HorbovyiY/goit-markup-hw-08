@@ -1,0 +1,15 @@
+.footer-add__title{
+    margin-bottom: 20px;
+        
+    color: var(--alternative-accent-color);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.17;
+}
+
+.footer-add__list{
+    @extend %list;
+    display: flex;
+    gap: 10px;
+}

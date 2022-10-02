@@ -1,0 +1,40 @@
+.address{
+    margin-top: 20px;
+}
+.address__list{
+    @extend %list;
+}
+
+.address__item:not(:last-child){
+    margin-bottom: 9px;
+}
+
+.address__link{
+    @extend %link;
+    font-size: 14px;
+    line-height: 1.71;
+    font-style: normal;
+}
+
+.address__link--white{
+    color: var(--alternative-accent-color);
+
+    transition: color var(--time-duration) var(--time-function);
+
+    &:hover,
+    &:focus {
+        color: var(--accent-font-color);
+    }
+}
+
+.address__link--opacity{
+    color: var(--opacity-color);
+        
+    transition: color var(--time-duration) var(--time-function);
+
+    &:hover,
+    &:focus {
+        color: var(--accent-font-color);
+    }
+}
+
