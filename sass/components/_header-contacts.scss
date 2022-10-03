@@ -1,6 +1,13 @@
 .header-contacts{
     @extend %list;
-    display: flex;
+    
+    display: none;
+    @media screen and (min-width:768px) {
+            display: block;
+        }
+    @media screen and (min-width:1200px) {
+        display: flex;
+    }
 }
 
 .header-contacts__link{
