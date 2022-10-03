@@ -15,11 +15,18 @@
 .clients-section__set{
     @extend %list;
     display: flex;
+    flex-wrap: wrap;
     gap: 30px;
 }
 
 .clients-section__item {
-    width: 170px;
+    width: 210px;
+    @media screen and (min-width: 768px) {
+        width: 226px;
+    }
+    @media screen and (min-width: 768px) {
+        width: 170px;
+    }
     height: 92px;
 }
 
