@@ -6,7 +6,12 @@
 
 .footer__box{
     @extend %container;
-    display: flex;
-    align-items: baseline;
-    gap: 94px;
+    @media screen and (min-width: 1200px) {
+        display: flex;
+            align-items: baseline;
+            gap: 94px;
+        
+    }
+
+    text-align: center;
 }

@@ -47,6 +47,11 @@
     padding-left: 28px;
     padding-right: 28px;
     margin-left: 12px;
+    @media screen and (max-width: 479px){
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
     height: 50px;
     min-width: 200px;
 

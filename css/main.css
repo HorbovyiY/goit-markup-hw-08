@@ -61,7 +61,6 @@ img {
 .portfolio-section__box, .footer__box, .clients-section__box, .team-section__box, .do-section__box, .advantage__box, .hero__box, .header__box {
   padding-right: 15px;
   padding-left: 15px;
-  background-color: orange;
 }
 @media screen and (min-width: 480px) {
   .portfolio-section__box, .footer__box, .clients-section__box, .team-section__box, .do-section__box, .advantage__box, .hero__box, .header__box {
@@ -468,6 +467,13 @@ img {
   -webkit-transition: background-color var(--time-duration) var(--time-function);
   transition: background-color var(--time-duration) var(--time-function);
 }
+@media screen and (max-width: 479px) {
+  .footer-form__btn {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 .footer-form__btn:hover, .footer-form__btn:focus {
   background-color: var(--main-btn-hover);
 }
@@ -833,13 +839,18 @@ img {
 }
 
 .footer__box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
-  gap: 94px;
+  text-align: center;
+}
+@media screen and (min-width: 1200px) {
+  .footer__box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    gap: 94px;
+  }
 }
 
 .address {
@@ -874,6 +885,12 @@ img {
   color: var(--accent-font-color);
 }
 
+@media screen and (max-width: 479px) {
+  .footer-add {
+    margin-top: 60px;
+  }
+}
+
 .footer-add__title {
   margin-bottom: 20px;
   color: var(--alternative-accent-color);
@@ -890,6 +907,12 @@ img {
   gap: 10px;
 }
 
+@media screen and (max-width: 479px) {
+  .footer-form {
+    margin-top: 60px;
+  }
+}
+
 .footer-form__title {
   margin-bottom: 20px;
   color: var(--alternative-accent-color);
@@ -900,10 +923,16 @@ img {
 }
 
 .footer-form__container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   position: relative;
+  text-align: center;
+}
+@media screen and (min-width: 1200px) {
+  .footer-form__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+  }
 }
 
 .footer-form__mail {
@@ -921,11 +950,16 @@ img {
 
 .footer-form__field {
   position: absolute;
-  top: 50%;
+  top: 25px;
   left: 16px;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   color: var(--opacity-color);
+}
+@media screen and (min-width: 1200px) {
+  .footer-form__field {
+    top: 50%;
+  }
 }
 
 .footer-form__mail:focus + .footer-form__field {
