@@ -11,9 +11,12 @@
 
 .header__box{
     @extend %container;
-    // @include flex-center(space-between);
+    @include flex-center(space-between);
 }
 
 .header__mobile-box{
+    @media screen and (max-width:1199px) {
+            width: 100%;
+        }
     @include flex-center(space-between);
 }

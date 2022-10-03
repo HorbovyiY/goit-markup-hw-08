@@ -7,11 +7,14 @@
     @extend %list;
     display: none;
     @media screen and (min-width:768px) {
-            display: flex;
-        }
-    margin-left: 93px;
-}
+        display: flex;
+        margin-left: 87px;
+    }
 
+        @media screen and (min-width:1200px) {
+            margin-left: 93px;
+        }
+}
 .navigation__link{
     @extend %link;
     display: flex;
