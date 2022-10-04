@@ -962,7 +962,7 @@ img {
   color: var(--accent-font-color);
 }
 
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 767px) {
   .footer-add {
     margin-top: 60px;
   }
@@ -984,7 +984,7 @@ img {
   gap: 10px;
 }
 
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 767px) {
   .footer-form {
     margin-top: 60px;
   }
