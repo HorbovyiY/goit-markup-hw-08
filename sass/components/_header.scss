@@ -1,13 +1,16 @@
 .header{
     padding-top: 16px;
     padding-bottom: 16px;
+    border-bottom-color: var(--border-color);
+            border-bottom-width: 1px;
+            border-bottom-style: solid;
 }
 
-// .header{
-//     border-bottom-color: var(--border-color);
-//     border-bottom-width: 1px;
-//     border-bottom-style: solid;
-// }
+.header{
+    border-bottom-color: var(--border-color);
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
 
 .header__box{
     @extend %container;

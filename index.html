@@ -140,7 +140,10 @@
                     <ul class="do-section__list">
                         <li>
                             <div class="do-card">
-                                <img src="./images/what_we_do1.jpg" width="370" alt="Програмуємо">
+                                <picture>
+                                    <source srcset="./images/do1.jpg 1x, ./images/do1@2x.jpg 2x">
+                                    <img src="./images/what_we_do1.jpg" width="370" alt="Програмуємо">
+                                </picture>
                                 <div class="do-card__title">
                                     <p>
                                         Десктопні додатки
@@ -150,7 +153,10 @@
                         </li>
                         <li>
                             <div class="do-card">
-                                <img src="./images/what_we_do2.jpg" width="370" alt="Аналізуємо">
+                                <picture>
+                                    <source srcset="./images/do2.jpg 1x, ./images/do2@2x.jpg 2x">
+                                    <img src="./images/what_we_do2.jpg" width="370" alt="Аналізуємо">
+                                </picture>
                                 <div class="do-card__title">
                                     <p>
                                         Мобільні додатки
@@ -160,7 +166,10 @@
                         </li>
                         <li>
                             <div class="do-card">
-                                <img src="./images/what_we_do3.jpg" width="370" alt="Малюємо">
+                                <picture>
+                                    <source srcset="./images/do3.jpg 1x, ./images/do3@2x.jpg 2x">
+                                    <img src="./images/what_we_do3.jpg" width="370" alt="Малюємо">
+                                </picture>
                                 <div class="do-card__title">
                                     <p>
                                         Дизайнерські рішення
@@ -177,7 +186,12 @@
                     <h2 class="team-section__title">Наша команда</h2>
                     <ul class="team-section__set">
                         <li class="team-card">
-                            <img src="./images/our_team1.jpg" width="270" alt="Ігор Дем'яненко">
+                            <picture>
+                                <source srcset="./images/ihor-desktop.jpg 1x, ./images/ihor-desktop@2x.jpg 2x" media="(min-width: 1200px)">
+                                <source srcset="./images/ihor-tablet.jpg 1x, ./images/ihor-tablet@2x.jpg 2x" media="(min-width: 768px)">
+                                <source srcset="./images/ihor-mobile.jpg 1x, ./images/ihor-mobile@2x.jpg 2x" media="(max-width: 767px)">
+                                <img src="./images/our_team1.jpg" alt="Ігор Дем'яненко">
+                            </picture>
                             <div class="team-card__text">
                                 <h3 class="team-card__title">Ігор Дем'яненко</h3>
                                 <p lang="en" class="team-card__pos">Product Designer</p>
@@ -214,7 +228,12 @@
                             </ul>
                         </li>
                         <li class="team-card">
-                            <img src="./images/our_team2.jpg" width="270" alt="Ольга Рєпіна">
+                            <picture>
+                                <source srcset="./images/olha-desktop.jpg 1x, ./images/olha-desktop@2x.jpg 2x" media="(min-width: 1200px)">
+                                <source srcset="./images/olha-tablet.jpg 1x, ./images/olha-tablet@2x.jpg 2x" media="(min-width: 768px)">
+                                <source srcset="./images/olha-mobile.jpg 1x, ./images/olha-mobile@2x.jpg 2x" media="(max-width: 767px)">
+                                <img src="./images/our_team2.jpg" alt="Ольга Рєпіна">
+                            </picture>
                             <div class="team-card__text">
                                 <h3 class="team-card__title">Ольга Рєпіна</h3>
                                 <p lang="en" class="team-card__pos">Frontend Developer</p>
@@ -251,7 +270,12 @@
                             </ul>
                         </li>
                         <li class="team-card">
-                            <img src="./images/our_team3.jpg" width="270" alt="Микола Тарасов">
+                            <picture>
+                                <source srcset="./images/mykola-desktop.jpg 1x, ./images/mykola-desktop@2x.jpg 2x" media="(min-width: 1200px)">
+                                <source srcset="./images/mykola-tablet.jpg 1x, ./images/mykola-tablet@2x.jpg 2x" media="(min-width: 768px)">
+                                <source srcset="./images/mykola-mobile.jpg 1x, ./images/mykola-mobile@2x.jpg 2x" media="(max-width: 767px)">
+                                <img src="./images/our_team3.jpg" alt="Микола Тарасов">
+                            </picture>
                             <div class="team-card__text">
                                 <h3 class="team-card__title">Микола Тарасов</h3>
                                 <p lang="en" class="team-card__pos">Marketing</p>
@@ -288,7 +312,12 @@
                             </ul>
                         </li>
                         <li class="team-card team-card--bottom">
-                            <img src="./images/our_team4.jpg" width="270" alt="Михайло Єрмаков">
+                            <picture>
+                                <source srcset="./images/mykhailo-desktop.jpg 1x, ./images/mykhailo-desktop@2x.jpg 2x" media="(min-width: 1200px)">
+                                <source srcset="./images/mykhailo-tablet.jpg 1x, ./images/mykhailo-tablet@2x.jpg 2x" media="(min-width: 768px)">
+                                <source srcset="./images/mykhailo-mobile.jpg 1x, ./images/mykhailo-mobile@2x.jpg 2x" media="(max-width: 767px)">
+                                <img src="./images/our_team4.jpg" alt="Михайло Єрмаков">
+                            </picture>
                             <div class="team-card__text">
                                 <h3 class="team-card__title">Михайло Єрмаков</h3>
                                 <p lang="en" class="team-card__pos">UI Designer</p>
@@ -381,49 +410,53 @@
 
         <footer class="footer">
             <div class="footer__box">
-                    <div>
-                        <a href="./index.html" lang="en" class="logo logo--white"><span class="logo--accent">Web</span>Studio</a>
-                        <address class="address">
-                            <ul class="address__list">
-                                <li class="address__item"><a href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" rel="noopener nofollow noreferrer"
-                                        class="address__link address__link--white">м. Київ, пр-т Лесі Українки, 26</a></li>
-                                <li class="address__item"><a href="mailto:info@devstudio.com" class="address__link address__link--opacity">info@devstudio.com</a></li>
-                                <li class="address__item"><a href="tel:+380961111111" class="address__link address__link--opacity">+38 096 111 11 11</a></li>
+                    <div class="footer__tablet-box">
+                        <div>
+                            <a href="./index.html" lang="en" class="logo logo--white"><span class="logo--accent">Web</span>Studio</a>
+                            <address class="address">
+                                <ul class="address__list">
+                                    <li class="address__item"><a href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" rel="noopener nofollow noreferrer"
+                                            class="address__link address__link--white">м. Київ, пр-т Лесі Українки, 26</a></li>
+                                    <li class="address__item"><a href="mailto:info@devstudio.com"
+                                            class="address__link address__link--opacity">info@devstudio.com</a></li>
+                                    <li class="address__item"><a href="tel:+380961111111" class="address__link address__link--opacity">+38 096
+                                            111 11 11</a></li>
+                                </ul>
+                            </address>
+                        </div>
+                        <div class="footer-add">
+                            <p class="footer-add__title">Приєднуйтесь</p>
+                            <ul class="socials socials--no-padding">
+                                <li class="socials__item">
+                                    <a href="#" class="socials__link socials__link--alt">
+                                        <svg class="socials__icon">
+                                            <use href="./images/icons.svg#icon-instagram"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="socials__item">
+                                    <a href="#" class="socials__link socials__link--alt">
+                                        <svg class="socials__icon">
+                                            <use href="./images/icons.svg#icon-twitter"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="socials__item">
+                                    <a href="#" class="socials__link socials__link--alt">
+                                        <svg class="socials__icon">
+                                            <use href="./images/icons.svg#icon-facebook"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="socials__item">
+                                    <a href="#" class="socials__link socials__link--alt">
+                                        <svg class="socials__icon">
+                                            <use href="./images/icons.svg#icon-linkedin"></use>
+                                        </svg>
+                                    </a>
+                                </li>
                             </ul>
-                        </address>
-                    </div>
-                    <div class="footer-add">
-                        <p class="footer-add__title">Приєднуйтесь</p>
-                        <ul class="socials socials--no-padding">
-                            <li class="socials__item">
-                                <a href="#" class="socials__link socials__link--alt">
-                                    <svg class="socials__icon">
-                                        <use href="./images/icons.svg#icon-instagram"></use>
-                                    </svg>
-                                </a>
-                            </li>
-                            <li class="socials__item">
-                                <a href="#" class="socials__link socials__link--alt">
-                                    <svg class="socials__icon">
-                                        <use href="./images/icons.svg#icon-twitter"></use>
-                                    </svg>
-                                </a>
-                            </li>
-                            <li class="socials__item">
-                                <a href="#" class="socials__link socials__link--alt">
-                                    <svg class="socials__icon">
-                                        <use href="./images/icons.svg#icon-facebook"></use>
-                                    </svg>
-                                </a>
-                            </li>
-                            <li class="socials__item">
-                                <a href="#" class="socials__link socials__link--alt">
-                                    <svg class="socials__icon">
-                                        <use href="./images/icons.svg#icon-linkedin"></use>
-                                    </svg>
-                                </a>
-                            </li>
-                        </ul>
+                        </div>
                     </div>
                     <div class="footer-form">
                         <p class="footer-form__title">Підпишіться на розсилку</p>

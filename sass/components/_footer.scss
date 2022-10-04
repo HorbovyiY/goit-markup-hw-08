@@ -15,3 +15,11 @@
 
     text-align: center;
 }
+
+@media screen and (min-width: 768) and (max-width:1199px){
+.footer__tablet-box{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+}
