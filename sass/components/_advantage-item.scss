@@ -1,4 +1,6 @@
 .advantage-item{
+margin-bottom: 30px;
+
     @media screen and (min-width: 768px) {
         width: 354px;
     }
@@ -10,10 +12,14 @@
 .advantage-item__title {
     @extend %title;
     margin-bottom: 10px;
-
+    
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
+    @media screen and (max-width:767px) {
+        text-align: center;
+        
+    }
 }
 
 .advantage-item__desc {
